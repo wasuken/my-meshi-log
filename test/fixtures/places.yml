@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  posX: 1.5
+  posY: 1.5
+  name: MyString
+
+two:
+  posX: 1.5
+  posY: 1.5
+  name: MyString
