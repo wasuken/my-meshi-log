@@ -1,0 +1,15 @@
+<% @users.each  do |u| %>
+<p>
+  <%= u[:id]%>
+</p>
+<p>
+  <%= u[:name]%>
+</p>
+<% end %>
+
+<%= form_for @user do |f| %>
+<p>name:<%= f.text_field :name %></p>
+<p>email:<%= f.email_field :email %></p>
+<p>bio:<%= f.text_area :bio %></p>
+<p><%= submit_tag("create") %></p>
+<% end %>
